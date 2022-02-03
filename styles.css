@@ -1,3 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rebeccapurple;
+  /* background-color: rgb(183, 193, 204); */
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+  margin:2rem;
+  color:rgb(96, 103, 143);
+  background: rgb(183, 193, 204) url(img/miswender2.png);
+  background: rgb(183, 193, 204) url(img/hatch4.png);
+  background-size: 150px;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  /* padding: 0 0 .5rem 0; */
+}
+
+ul {
+  /* display: flex; */
+  list-style: none;
+  padding:0;
+  justify-content: center;
+  /* margin-bottom:.5rem; */
+  margin-bottom:0;
+  /* border-top:1px dashed; */
+  margin-top: 0;
+}
+
+li {
+  /* background:rgb(235, 211, 225); */
+  padding:.5rem;
+  /* margin:.2rem; */
+  border-top:1px dashed;
+  text-align: center;
+}
+
+li:hover {
+  background:rgb(235, 211, 225);
+  background:rgb(199, 221, 137);
+
+}
+
+a {
+  color:rgb(96, 103, 143);
+  /* color:black; */
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  margin-bottom:-4px;
+}
+
+.corral {
+  max-width:300px;
+  /* background: rgb(245, 244, 224); */
+  background: rgb(183, 193, 204);
+  border: 1px dashed;
+  /* padding: 1rem; */
+  /* display: inline-block; */
+}
+
+.wrap {
+  margin: 6px;
+  border:1px dashed;
+}
+
+.name {
+  letter-spacing: .5rem;
+  background:white;
+  background:rgb(199, 221, 137);
+  /* display: inline-block; */
+  /* border: 1px solid; */
+  padding: .6rem 0 .5rem .5rem;
+  /* margin-top:.5rem; */
+  /* border-top:1px dashed; */
+  border-bottom:1px dashed;
 }
