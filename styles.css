@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  margin: 0 0 1rem 0;
+  margin: .5rem 0;
   text-align: center;
   /* padding: 0 0 .5rem 0; */
 }
@@ -54,7 +54,13 @@ img {
   max-width: 100%;
   border-top: 1px dashed;
   border-bottom: 1px dashed;
-  margin-bottom:-4px;
+  margin-bottom:-5px;
+}
+
+hr {
+  border:none;
+  border-top:1px dashed;
+  margin:0;
 }
 
 .corral {
@@ -78,7 +84,7 @@ img {
   /* display: inline-block; */
   /* border: 1px solid; */
   padding: .6rem 0 .5rem .5rem;
-  /* margin-top:.5rem; */
+  margin-top:0;
   /* border-top:1px dashed; */
   border-bottom:1px dashed;
 }
