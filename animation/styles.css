@@ -19,8 +19,8 @@ body {
   width:20vw;
   height:20vw;
   background-color:rgb(138, 174, 204);
-  /* border-radius:50%; */
-  animation: pulse 1s infinite alternate, spin 2s infinite linear alternate;
+  border-radius:50%;
+  animation: pulse 1s infinite alternate;
 }
 
 .square {
@@ -55,10 +55,10 @@ body {
 
 @keyframes spin {
   0% {
-    transform:rotate(0deg) scale(1);
+    transform:rotate(0deg);
   }
   100% {
-    transform:rotate(360deg) scale(1.3);
+    transform:rotate(360deg);
   }
 }
 
